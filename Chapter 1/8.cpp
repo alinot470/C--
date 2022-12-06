@@ -12,7 +12,6 @@ main()
   Square_feet = Lenght_in_feet * Width_in_feet;
   cout << "You Garden size is : " << Square_feet << " Square Feet \n";
 
-
   int Cost_of_soil;
   cout << "Enter cost of soil per feet?\n";
   cin >> Cost_of_soil;
@@ -25,5 +24,4 @@ main()
   int Total_amount;
   Total_amount = Cost_of_soil + Cost_of_flowerSeeds + Cost_of_fence;
   cout << "Total amount is: " << Total_amount * Square_feet;
-
 }
