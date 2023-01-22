@@ -5,6 +5,7 @@
 // a building and then displays the minimum amount of
 // insurance that should be purchased for the property?
 #include <iostream>
+#include <iomanip>
 using namespace std;
 int main ()
 {
@@ -12,6 +13,7 @@ int main ()
   cout << "Enter the replacment cost :";
   cin>> replacement_cost;
   minimum_amount_property = replacement_cost * insurance_percent;
+  cout << setprecision(3) << fixed;
   cout << minimum_amount_property;
 
   
